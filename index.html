@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="bootstrap-3.3.6/dist/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+<div class="total">
+    <div class="hi">            <img class="pic" src="images/pic.jpeg"/>
+        <h3 class="hello">
+            Hi Mike,
+        </h3>
+        <div class="today">
+            <h4>Today</h4>
+            <br>
+            <h1 id="h1">$19,892</h1>
+            <p>Account Balance</p>
+            <br>
+            <h2 id="h2">$4,000</h2>
+            <p class="p">Year-to-Date Contributions</p>
+            <br>
+            <h2 class="h2">$1,800</h2>
+            <p class="p1">Total interest</p>
+
+               <select name="branches" id="branch">
+                <option value="">I want to</option>
+               </select>
+        </div>
+        <div class="recent">
+            <h4>Recent Transactions</h4>
+            <p  class="r">
+                2020-07-21
+            </p>
+            <h5>Withdrawal Transfer to Bank-XXX11</h5>
+            <br>
+            <hr>
+            <p class="r">
+                2020-07-21
+            </p>
+            <h5>Withdrawal Transfer to Bank-XXX11</h5>
+            <br>
+            <hr>
+            <p class="r">
+                2020-07-21
+            </p>
+            <h5>Withdrawal Transfer to Bank-XXX11</h5>
+            <br>
+            <hr>
+        </div>
+    </div>
+<div class="starting">
+<h5 style="color:blue">Retirement income</h5>
+<h2>Starting Year 2056</h2>
+<table style="width:100%;">
+    <tr>
+        <td style="padding-right:80px;">
+            <h1>$300,000</h1>
+            <p class="pp">My Goal</p>
+            <hr class="hr">
+        </td>
+        <td style="padding-right:65px;">
+            <h1>59%</h1>
+            <p class="pp">Goal achieved</p>
+            <hr class="hr">
+        </td>
+        <td>
+            <h1>$300</h1>
+            <p class="pp">Est. Monthly income</p>
+            <hr class="hr">
+        </td>
+    </tr>
+</table>
+<h2>
+    Contributions Overtime
+</h2>
+<div>
+    <canvas id="myChart"></canvas>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  
+  <script>
+    const ctx = document.getElementById('myChart');
+  
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+        datasets: [{
+          label: '# of Votes',
+          data: [12, 19, 3, 5, 2, 3],
+          borderWidth: 1
+        }]
+      },
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true
+          }
+        }
+      }
+    });
+  </script>
+<h2>
+    How do I compare my peers?
+</h2>  
+<p class="pp">These numbers represent current goal achievment</p>
+<div class="two">
+    <div class="one">
+<h3>Age:
+    <select name="branches" id="a">
+        <option value="">Under 30</option>
+       </select>
+</h3>
+<hr>
+<h3>Salary:
+    <select name="branches" id="a">
+        <option value="">k 20 - k 30</option>
+       </select>
+</h3>
+<hr>
+<h3>Gender:
+    <select name="branches" id="a">
+        <option value="">Male</option>
+       </select>
+</h3>
+    </div>
+    <div class="one">
+        <div class="dashboard">
+            <svg>
+              <circle class="bg" cx="57" cy="57" r="52" />
+              <circle class="meter-1" cx="57" cy="57" r="52" />
+            </svg>
+            <svg>
+              <circle class="bg" cx="57" cy="57" r="52" />
+              <circle class="meter-2" cx="57" cy="57" r="52" />
+            </svg>
+            <svg>
+              <circle class="bg" cx="57" cy="57" r="52" />
+              <circle class="meter-3" cx="57" cy="57" r="52" />
+            </svg>
+          </div>
+    </div>
+
+</div>
+</div>
+<div class="retirement">
+    <div class="hi1">            <img class="pic" src="images/pic.jpeg"/>
+        <h3 class="hello">
+            Hi Mike,
+        </h3>
+        <div class="today">
+            <h4>Today</h4>
+            <br>
+            <h1 id="h1">$19,892</h1>
+            <p>Account Balance</p>
+            <br>
+            <h2 id="h2">$4,000</h2>
+            <p class="p">Year-to-Date Contributions</p>
+            <br>
+            <h2 class="h2">$1,800</h2>
+            <p class="p1">Total interest</p>
+
+               <select name="branches" id="branch">
+                <option value="">I want to</option>
+               </select>
+        </div>
+        <div class="recent">
+            <h4>Recent Transactions</h4>
+            <p  class="r">
+                2020-07-21
+            </p>
+            <h5>Withdrawal Transfer to Bank-XXX11</h5>
+            <br>
+            <hr>
+            <p class="r">
+                2020-07-21
+            </p>
+            <h5>Withdrawal Transfer to Bank-XXX11</h5>
+            <br>
+            <hr>
+            <p class="r">
+                2020-07-21
+            </p>
+            <h5>Withdrawal Transfer to Bank-XXX11</h5>
+            <br>
+            <hr>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+</body>
+</html>
